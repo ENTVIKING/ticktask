@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:icon="@drawable/home"
+        android:title="خانه" />
+
+    <item
+        android:id="@+id/bottom_nav_tasks"
+        android:icon="@drawable/tasks"
+        android:title="کارها" />
+
+    <!-- جایگاه خالی برای FAB وسط -->
+    <item
+        android:id="@+id/placeholder"
+        android:enabled="false"
+        android:title="" />
+
+    <item
+        android:id="@+id/bottom_nav_reports"
+        android:icon="@drawable/reports"
+        android:title="گزارشات" />
+
+    <item
+        android:id="@+id/bottom_nav_settings"
+        android:icon="@drawable/settings2"
+        android:title="تنظیمات" />
+
+
+</menu>

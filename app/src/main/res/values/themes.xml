@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.TickTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorPrimaryContainer">@color/purple_container</item>
+        <item name="colorOnPrimaryContainer">@color/purple_on_container</item>
+        <item name="colorSecondary">@color/secondary_lavender</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <item name="android:statusBarColor">@color/purple_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.TickTask.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.TickTask.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.TickTask.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.TickTask.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.TickTask.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.TickTask.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.TickTask.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.TickTask.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.TickTask.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.TickTask.LabelSmall</item>
+    </style>
+
+    <style name="Theme.TickTask" parent="Base.Theme.TickTask" />
+
+    <style name="FabCircle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="TextAppearance.TickTask.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="Theme.TickTask.Splash" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            @color/splash_purple_center
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/logo
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Base.Theme.TickTask
+        </item>
+
+    </style>
+</resources>

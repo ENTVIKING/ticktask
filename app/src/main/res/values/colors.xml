@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ==================== BRAND COLORS ==================== -->
+
+    <color name="purple_primary">#6A52E8</color>
+    <color name="purple_primary_dark">#4932A5</color>
+    <color name="purple_primary_light">#D8CCFF</color>
+    <color name="purple_container">#DED3FF</color>
+    <color name="purple_on_container">#22005D</color>
+
+    <!-- ==================== SECONDARY COLORS ==================== -->
+
+    <color name="secondary_lavender">#554D65</color>
+    <color name="secondary_container">#DDD3F0</color>
+
+    <!-- ==================== BACKGROUND & SURFACE ==================== -->
+
+    <color name="background_light">#F2EFF9</color>
+    <color name="surface_light">#FBFAFE</color>
+    <color name="surface_variant">#EBE5F2</color>
+    <color name="bottom_bar_bg">#FFFFFF</color>
+
+    <!-- ==================== TEXT COLORS ==================== -->
+
+    <color name="text_primary">#191725</color>
+    <color name="text_secondary">#494454</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- ==================== PRIORITY COLORS ==================== -->
+
+    <color name="priority_low">#388E3C</color>
+    <color name="priority_medium">#E88900</color>
+    <color name="priority_high">#D32F2F</color>
+
+    <!-- ==================== STATUS BAR ==================== -->
+
+    <color name="status_bar_purple">#321A56</color>
+
+    <!-- ==================== SPLASH SCREEN ==================== -->
+
+    <color name="splash_purple_start">#5B3FE0</color>
+    <color name="splash_purple_center">#6048D9</color>
+    <color name="splash_purple_end">#4932B5</color>
+
+    <color name="splash_white">#FFFFFF</color>
+    <color name="splash_lavender">#D0BFFF</color>
+    <color name="splash_progress_track">#668F82E8</color>
+
+    <!-- ==================== GENERAL COLORS ==================== -->
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="divider">#DDD8E6</color>
+    <color name="purple_500">#7058DF</color>
+
+    <color name="nav_icon_inactive">#77718A</color>
+
+    <!-- ==================== HEADER GRADIENT ==================== -->
+
+    <color name="header_gradient_start">#5B3FE0</color>
+    <color name="header_gradient_end">#7666E8</color>
+
+    <!-- ==================== CHECKBOX ==================== -->
+
+    <color name="check_outline">#AAA5B8</color>
+
+    <!-- ==================== PRIORITY CHIPS ==================== -->
+
+    <color name="chip_normal_bg">#E3DCFA</color>
+    <color name="chip_normal_text">#5942C5</color>
+
+    <color name="chip_medium_bg">#FFE5B8</color>
+    <color name="chip_medium_text">#B86C00</color>
+
+    <color name="chip_important_bg">#D2EEDB</color>
+    <color name="chip_important_text">#247A43</color>
+
+    <color name="chip_urgent_bg">#FBDADA</color>
+    <color name="chip_urgent_text">#C62828</color>
+
+    <color name="chip_done_bg">#E5E3E9</color>
+    <color name="chip_done_text">#9B95AB</color>
+
+</resources>

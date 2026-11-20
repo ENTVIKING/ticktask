@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bottom_nav_home">
+
+    <fragment
+        android:id="@+id/bottom_nav_home"
+        android:name="com.ent.ticktask.Ui.fragments.HomeFragment"
+        android:label="خانه" />
+
+    <fragment
+        android:id="@+id/bottom_nav_tasks"
+        android:name="com.ent.ticktask.Ui.fragments.TasksFragment"
+        android:label="کارها" />
+
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.ent.ticktask.Ui.fragments.AddTaskFragment"
+        android:label="افزودن کار جدید" />
+
+    <fragment
+        android:id="@+id/bottom_nav_reports"
+        android:name="com.ent.ticktask.Ui.fragments.ReportsFragment"
+        android:label="گزارشات" />
+
+    <fragment
+        android:id="@+id/bottom_nav_settings"
+        android:name="com.ent.ticktask.Ui.fragments.SettingsFragment"
+        android:label="تنظیمات" />
+</navigation>
